@@ -6,7 +6,7 @@
 
 Bienvenidos al buscador de WoW'S de Owen Wilson , este buscador te proporciona todos los detalles de cuando y como utiliza WoW en sus diferentes peliculas, proporcionando el titulo de la pelicula, poster, año de la pelicula, director, y hasta el audio.
 
-Web: http://beta.adalab.es/modulo-3-evaluacion-final-BarbaraBravoRedondo/
+Web: [https://barbarabravoredondo.github.io/Owen-Wilson-Wow/]
 
 ## Recomendado
 
@@ -21,7 +21,7 @@ Web: http://beta.adalab.es/modulo-3-evaluacion-final-BarbaraBravoRedondo/
 - Navegador web moderno
 
 ## Empieza:
--Clona este repositorio : https://github.com/Adalab/modulo-3-evaluacion-final-BarbaraBravoRedondo.git
+-Clona este repositorio :https://barbarabravoredondo.github.io/Owen-Wilson-Wow/
 -Instala starter Kit adalab de React
 
 
