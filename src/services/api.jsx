@@ -2,7 +2,7 @@ import uuid from 'react-uuid';
 const callToApi = () => {
   // Llamamos a la API y convertimos la respuesta en formato JSON
   return fetch(
-    'https://owen-wilson-wow-api.onrender.com/wows/random?results=50'
+    '//owen-wilson-wow-api.onrender.com/wows/random?results=50'
   )
     .then((response) => response.json())
     .then((data) => {
