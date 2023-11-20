@@ -1,0 +1,112 @@
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: black 30px solid;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+.detailsBox {
+  height: max-content;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(207, 71, 34);
+  color: white;
+  padding: 20px;
+  border: solid white 10px;
+  box-shadow: 0 0 7px 3px orange;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    width: 600px;
+    height: 350px;
+    gap: 60px;
+    padding: 40px;
+  }
+  @media (min-width: 1024px) {
+  }
+  .img {
+    width: 150px;
+    height: 180px;
+    border-radius: 20px 20px 20px 20px;
+    @media (min-width: 768px) {
+      width: 230px;
+      height: 250px;
+      margin-left: 30px;
+    }
+  }
+}
+
+.miniData {
+  font-size: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  gap: 3px;
+  font-size: 14px;
+  text-align: center;
+  .movieTitle {
+    color: black;
+  }
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1024px) {
+  }
+
+  .a {
+    width: 150px;
+    height: 20px;
+    color: black;
+    padding: 5px;
+  }
+  .link {
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      font-size: 18px;
+      margin-top: 40px;
+    }
+  }
+}
+
+.notBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(207, 71, 34);
+    text-decoration: none;
+    gap: 10px;
+    font-family: 'Permanent Marker', cursive;
+  }
+  .notFound {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: 20px;
+    @media (min-width: 768px) {
+      font-size: 25px;
+      margin: 40px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 30px;
+      margin: 60px;
+    }
+  }
+}

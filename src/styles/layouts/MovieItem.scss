@@ -1,0 +1,95 @@
+.movie-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  background: black;
+}
+
+.imgMovie {
+  width: 50px;
+  height: 60px;
+  display: block;
+  margin: 5px;
+  border: white solid 3px;
+  @media (min-width: 768px) {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+  }
+  @media (min-width: 1024px) {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+.movie-item:hover .imgMovie {
+  animation: none;
+}
+
+.movie-details {
+  padding: 8px;
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.article {
+  display: flex;
+  gap: 3px;
+  width: 100px;
+  height: max-content;
+  padding: 10px;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+
+  border: 6px solid rgb(207, 71, 34);
+  box-shadow: 0 0 7px 3px rgb(218, 103, 16);
+  @media (min-width: 768px) {
+    width: 150px;
+  }
+  @media (min-width: 1024px) {
+    width: 280px;
+  }
+}
+.article:hover {
+  background: rgb(207, 71, 34);
+}
+.span {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6px;
+  color: white;
+  text-decoration: none;
+  @media (min-width: 768px) {
+    font-size: 12px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+}
+.error {
+  font-family: 'Alfa Slab One', serif;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  margin: 25px;
+  @media (min-width: 768px) {
+    font-size: 25px;
+    line-height: 70px;
+  }
+  @media (min-width: 768px) {
+    font-size: 30px;
+    line-height: 100px;
+  }
+}

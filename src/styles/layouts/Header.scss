@@ -1,0 +1,61 @@
+.header {
+  position: relative;
+  width: 100vw;
+  height: 35vh;
+  background-image: url('../../images/wow.png');
+  background-position: top;
+  background-size: 15%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: repeat;
+  font-size: 28px;
+  @media (min-width: 768px) {
+    height: 35vh;
+    background-size: 19%;
+    background-repeat: repeat-x;
+  }
+  @media (min-width: 1024px) {
+    height: 35vh;
+    background-size: 15%;
+  }
+}
+
+.header::before {
+  content: "Owen Wilson's WOW"; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px; 
+  color: white; 
+  text-shadow: 5px 5px 10px #e95612;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  @media (min-width: 768px) {
+   font-size: 70px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 90px;
+  }
+}
+
+.header::before {
+  animation: blink 8s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    color: white;
+  }
+  50% {
+    color: transparent;
+  }
+}

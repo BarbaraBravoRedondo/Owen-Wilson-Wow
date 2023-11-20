@@ -1,0 +1,12 @@
+//general styles
+// COMMON STYLES
+@import '../core/reset.scss';
+body {
+  background-color: black;
+  color: white;
+}
+.form {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
